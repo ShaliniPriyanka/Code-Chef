@@ -31,3 +31,17 @@ N!(N factorial)
 𝑁
 =1×2×3×.....N
 */
+import java.util.Scanner;
+class Codechef{
+    public static void main(String[]args){
+        Scanner scanner=new Scanner(System.in);
+        int N=scanner.nextInt();
+        int factorial =1;
+        int i=1;
+        while(i<=N){
+            factorial*=i;
+            i++;
+        }
+        System.out.println(factorial);
+    }
+}
