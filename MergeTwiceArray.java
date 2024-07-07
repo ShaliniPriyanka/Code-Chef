@@ -1,3 +1,17 @@
+/*
+ * Coding Problem - 3
+ * You need to merge the lists such that your output is a single list - List 1 + List 2 + List 1.
+Check the sample output below:
+
+Sample Input:
+5 5
+1 3 5 7 9
+1 2 3 4 5
+
+Sample Output:
+1 3 5 7 9 1 2 3 4 5 1 3 5 7 9
+ */
+
 import java.util.Scanner;
 
 class MergeTwiceArray{
